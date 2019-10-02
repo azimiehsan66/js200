@@ -2,10 +2,15 @@ var express = require('express');
 var router = express.Router();
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
+
+router.get('/home', function(req, res, next) {
 
     console.log(req.query.name);
-    res.render('index', { title: 'Alireza kalantari' });
+    //res.render('index', { title: 'Alireza kalantari' });
+    res.render('home',{name: 'احسان'
+        ,family:'عظیمی'
+    });
 });
+
 
 module.exports = router;
