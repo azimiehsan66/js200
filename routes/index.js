@@ -7,9 +7,7 @@ router.get('/home', function(req, res, next) {
 
     console.log(req.query.name);
     //res.render('index', { title: 'Alireza kalantari' });
-    res.render('home',{name: 'احسان'
-        ,family:'عظیمی'
-    });
+    res.render('index',{name: 'احسان',family:'عظیمی'});
 });
 
 

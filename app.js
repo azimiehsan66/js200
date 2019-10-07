@@ -22,6 +22,31 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
+
+
+var mysql      = require('mysql');
+var connection = mysql.createConnection({
+    host     : '127.0.0.1',
+    user     : 'root',
+    password : '1234@qwer',
+    database : 'sakila'
+});
+
+connection.connect();
+
+
+app.get('/actors/:letter',(req,res,next)=>{
+
+
+    connection.query('SELECT * from actor where last_name like ?',[req.params.letter+"%"], function (error, results, fields) {
+        if (error) throw error;
+        console.log(req.params.letter);
+        res.json(results);
+    });
+ //   connection.end();
+});
+
+
 app.get("/",(req,res,next)=>{
   res.json({
       "name":"ali",
