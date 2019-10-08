@@ -38,36 +38,43 @@ let html = "";
 
             this.c = config;
             this.bindEvents();
+            this.setupTemplates();
         },
 
         bindEvents : function () {
           this.c.letterSelection.on('change',this.fetchActorsBylastname)
 
 
-            this.c.actor.on('click',function () {
-                console.log("ehsan");
-            })
+
         },
         fetchActorsBylastname : function () {
+            var self = Actor;
            $.ajax({
                url: "/actors/" + $(this).val(),
                success : function (res) {
                    console.log(res);
+                   console.log(self.c.actorListTemplate(res));
+                   self.c.actorList.html(self.c.actorListTemplate(res));
                }
            })
-
-
+        },
+        setupTemplates : function () {
+            //console.log(this.c.actorListTemplate);
+            //console.log(H.compile(this.c.actorListTemplate));
+            this.c.actorListTemplate = H.compile(this.c.actorListTemplate);
 
         }
 
     };
 
-    Actor.init({letterSelection : $('#letter-selection')
-    ,   actor : $('.actor-list')
-    });
+    Actor.init({
+        letterSelection : $('#letter-selection'),
+        actorListTemplate : $('#actor-list-template').html(),
+        actorList : $('.actor-list')
+});
 
 
-})(jQuery,handlebars)
+})(jQuery,Handlebars)
 
 
 
