@@ -6,6 +6,8 @@ html(lang='en')
         link(rel='stylesheet', href='css/normalize.css')
         link(rel='stylesheet', href='css/style.css')
     body
+        #preloader
+            .box Loading ...
         .container
             h6=`${name} ${family}`
             h1 Search Actors By Last Name
@@ -22,6 +24,7 @@ html(lang='en')
                     {{/each}}
                     </ul>
             .actor_info
+                p
                 span.close X
         script(src='js/jquery.js')
         script(src='js/handlebars.js')

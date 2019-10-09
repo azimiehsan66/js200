@@ -23,6 +23,19 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
 
+app.use((req,res,next)=>{
+
+   if(req.headers['x-requested-with'])    {
+    var w = new Date().getTime();
+    while (w+15 > new Date().getTime()){
+//
+    }
+    }
+    next();
+});
+
+
+
 
 var mysql      = require('mysql');
 var connection = mysql.createConnection({
@@ -36,7 +49,7 @@ connection.connect();
 
 
 app.get('/actors/:letter',(req,res,next)=>{
-
+   // console.log("ali");
 
     connection.query('SELECT * from actor where last_name like ?',[req.params.letter+"%"], function (error, results, fields) {
         if (error) throw error;
@@ -44,6 +57,15 @@ app.get('/actors/:letter',(req,res,next)=>{
         res.json(results);
     });
  //   connection.end();
+});
+
+
+app.get('/actor-info/:id',(req,res,next)=>{
+
+    connection.query('select * from actor_info where actor_id = ?',[req.params.id],function (error,result,fields) {
+        if (error) throw  error;
+        res.json(result);
+    });
 });
 
 

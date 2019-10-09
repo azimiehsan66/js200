@@ -29,52 +29,90 @@ let html = "";
 }); */
 
 
+(function ($, H) {
 
-(function ($,H) {
+    var Actor = {
 
-    var Actor ={
-
-        init :function (config) {
+        init: function (config) {
 
             this.c = config;
             this.bindEvents();
             this.setupTemplates();
+
+
+
+            $.ajaxSetup({
+                beforeSend : function () {
+                    $('#preloader').fadeIn(100);
+                },
+                complete : function () {
+                    $('#preloader').fadeOut(100);
+                }
+            })
+
+
         },
 
-        bindEvents : function () {
-          this.c.letterSelection.on('change',this.fetchActorsBylastname)
-
+        bindEvents: function () {
+            this.c.letterSelection.on('change', this.fetchActorsBylastname);
+            this.c.actorList.on('click', 'li', this.fetchInfo);
+            this.c.actorInfo.on('click','span',this.close);
 
 
         },
-        fetchActorsBylastname : function () {
+        fetchActorsBylastname: function () {
             var self = Actor;
-           $.ajax({
-               url: "/actors/" + $(this).val(),
-               success : function (res) {
-                   console.log(res);
-                   console.log(self.c.actorListTemplate(res));
-                   self.c.actorList.html(self.c.actorListTemplate(res));
-               }
-           })
+            $.ajax({
+                url: "/actors/" + $(this).val(),
+                success: function (res) {
+               //     console.log(res);
+             //       console.log(self.c.actorListTemplate(res));
+                    self.c.actorList.html(self.c.actorListTemplate(res));
+                }
+            })
         },
-        setupTemplates : function () {
+        setupTemplates: function () {
             //console.log(this.c.actorListTemplate);
             //console.log(H.compile(this.c.actorListTemplate));
             this.c.actorListTemplate = H.compile(this.c.actorListTemplate);
 
+        },
+        fetchInfo: function () {
+
+         //   console.log($(this).data('actor_id'));
+            var self = Actor;
+            $.ajax({
+
+                url: "/actor-info/"+ $(this).data('actor_id'),
+                success : function (res) {
+                //   console.log(res[0].film_info);
+                   self.c.actorInfo.find('p').text(res[0].film_info)
+                       .end()
+                       .slideDown();
+
+
+                }
+            })
+
+
+        },
+
+        close: function ()
+        {
+        $(this).parents('.actor_info').slideUp();
         }
 
     };
 
     Actor.init({
-        letterSelection : $('#letter-selection'),
-        actorListTemplate : $('#actor-list-template').html(),
-        actorList : $('.actor-list')
-});
+        letterSelection: $('#letter-selection'),
+        actorListTemplate: $('#actor-list-template').html(),
+        actorList: $('.actor-list'),
+        actorInfo: $('.actor_info')
+    });
 
 
-})(jQuery,Handlebars)
+})(jQuery, Handlebars)
 
 
 
