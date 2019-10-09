@@ -1,73 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f6ce789-820b-401b-987c-e04c6cd458db" name="Default" comment="xcvbcxvb xcbcxvb">
-      <change afterPath="$PROJECT_DIR$/explorer/scan.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/explorer/views/error.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/explorer/views/index.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/explorer/views/layout.pug" afterDir="false" />
+    <list default="true" id="7f6ce789-820b-401b-987c-e04c6cd458db" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/003-file-explorer/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/003-file-explorer/frontend/assets/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/003-file-explorer/frontend/assets/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/003-file-explorer/frontend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/003-file-explorer/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/003-file-explorer/scan.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/001.js" beforeDir="false" afterPath="$PROJECT_DIR$/001.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/HISTORY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/lib/types/urlencoded.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/lib/types/urlencoded.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bytes/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bytes/History.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bytes/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bytes/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bytes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bytes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bytes/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bytes/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/content-disposition/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/content-disposition/HISTORY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/content-disposition/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/content-disposition/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/content-disposition/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/content-disposition/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/content-disposition/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/content-disposition/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/content-disposition/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/content-disposition/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/History.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/express.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/express.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/request.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/response.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/lib/response.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/finalhandler/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/finalhandler/HISTORY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/finalhandler/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/finalhandler/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/finalhandler/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/finalhandler/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/finalhandler/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/finalhandler/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/iconv-lite/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/iconv-lite/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/iconv-lite/Changelog.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/sbcs-codec.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/sbcs-codec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/sbcs-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/sbcs-data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/iconv-lite/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/iconv-lite/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mime/build/build.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mime/build/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mime/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mime/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mime/types.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mime/types.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/qs/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/qs/.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/qs/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/qs/.eslintrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/qs/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/qs/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/qs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/qs/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/qs/dist/qs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/qs/dist/qs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/qs/lib/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/qs/lib/parse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/qs/lib/stringify.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/qs/lib/stringify.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/qs/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/qs/lib/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/qs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/qs/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/qs/test/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/qs/test/.eslintrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/qs/test/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/qs/test/parse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/qs/test/stringify.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/qs/test/stringify.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/qs/test/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/qs/test/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/raw-body/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/raw-body/HISTORY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/raw-body/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/raw-body/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/send/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/send/HISTORY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/send/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/send/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/send/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/send/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/send/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/send/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/serve-static/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/serve-static/HISTORY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/serve-static/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/serve-static/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/serve-static/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/serve-static/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/serve-static/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/serve-static/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.pug" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -77,35 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/explorer/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scan.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/explorer/scan.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="32" column="2" lean-forward="true" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -116,9 +29,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>debug</find>
-      <find>debug =</find>
-      <find>Welcom</find>
       <find>app.</find>
       <find>app.use</find>
       <find>app.use(</find>
@@ -146,6 +56,9 @@
       <find>a</find>
       <find>3000</find>
       <find>www</find>
+      <find>scan</find>
+      <find>size</find>
+      <find>search</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -215,7 +128,36 @@
             <path>
               <item name="js200" type="b2602c69:ProjectViewProjectNode" />
               <item name="js200" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="003-file-explorer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js200" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js200" type="462c0819:PsiDirectoryNode" />
+              <item name="003-file-explorer" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js200" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js200" type="462c0819:PsiDirectoryNode" />
+              <item name="003-file-explorer" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js200" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js200" type="462c0819:PsiDirectoryNode" />
+              <item name="003-file-explorer" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js200" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js200" type="462c0819:PsiDirectoryNode" />
+              <item name="003-file-explorer" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -239,15 +181,15 @@
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ici\WebstormProjects\js200\explorer" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ici\WebstormProjects\js200\explorer\views" />
       <recent name="C:\Users\ici\WebstormProjects\js200" />
+      <recent name="C:\Users\ici\WebstormProjects\js200\explorer\views" />
       <recent name="C:\Users\ici\WebstormProjects\js200\views" />
       <recent name="C:\Users\ici\WebstormProjects\js200\public\js" />
       <recent name="C:\Users\ici\WebstormProjects\js200\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ici\WebstormProjects\js200\explorer" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -289,7 +231,7 @@
       <workItem from="1570428195215" duration="11233000" />
       <workItem from="1570512818475" duration="6316000" />
       <workItem from="1570598573012" duration="14946000" />
-      <workItem from="1570624992523" duration="1888000" />
+      <workItem from="1570624992523" duration="4284000" />
     </task>
     <task id="LOCAL-00001" summary="xcvbcxvb xcbcxvb">
       <created>1570599085928</created>
@@ -298,17 +240,25 @@
       <option name="project" value="LOCAL" />
       <updated>1570599085928</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="xcvbcxvb xcbcxvb">
+      <created>1570626956519</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1570626956519</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55236000" />
+    <option name="totallyTimeSpent" value="57632000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49892473" visible="true" weight="0.12111638" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32903227" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -325,25 +275,26 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32903227" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32822758" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49892473" visible="true" weight="0.12111638" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49892473" visible="true" weight="0.12111638" />
       <window_info id="Structure" order="1" sideWeight="0.50107527" side_tool="true" weight="0.24960506" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32903227" />
+      <window_info anchor="bottom" id="TypeScript" order="8" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.15268818" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934355" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.42258066" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32932165" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32903227" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -413,23 +364,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pug/bin/www" />
-    <entry file="file://$PROJECT_DIR$/pug/package.json" />
-    <entry file="file://$PROJECT_DIR$/pug/routes/index.js" />
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/javascript/nodejs/library/node-globals-stub.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -625,13 +559,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/001.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
@@ -654,13 +581,6 @@
     <entry file="file://$PROJECT_DIR$/explorer/views/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/explorer/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -671,20 +591,6 @@
     <entry file="file://$PROJECT_DIR$/explorer/bin/www">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/explorer/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/nodejs/8.9.4/core-modules/fs.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1086">
@@ -692,10 +598,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/001.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/explorer/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/explorer/scan.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="32" column="2" lean-forward="true" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/003-file-explorer/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/003-file-explorer/scan.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/003-file-explorer/frontend/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="671" column="4" selection-start-line="671" selection-start-column="4" selection-end-line="671" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/003-file-explorer/frontend/assets/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="142" column="43" lean-forward="true" selection-start-line="142" selection-start-column="43" selection-end-line="142" selection-end-column="43" />
         </state>
       </provider>
     </entry>
