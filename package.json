@@ -1,17 +1,20 @@
 {
   "name": "js200",
-  "version": "0.0.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon ./bin/www"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "express": "^4.17.1",
-    "http-errors": "~1.6.3",
-    "morgan": "~1.9.1",
-    "mysql": "github:mysqljs/mysql",
-    "pug": "2.0.0-beta11"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azimiehsan66/js200.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azimiehsan66/js200/issues"
+  },
+  "homepage": "https://github.com/azimiehsan66/js200#readme"
 }
