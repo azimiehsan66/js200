@@ -1,3 +1,47 @@
-export function findOne(param, f) {
+let mongoose = require('mongoose');
+let Schema = mongoose.Schema;
+let bcrypt = require('bcrypt-nodejs');
 
-}
+let UserSchema = new Schema({
+    username: {
+        type: String,
+        unique: true,
+        required: true
+    },
+    password: {
+        type:String,
+        required:true
+    }
+});
+
+UserSchema.pre('save',function (next) {
+    let user = this;
+    if(this.isModified('password')|| this.isNew){
+        bcrypt.genSalt(10,function (err,salt) {
+            if(err){
+                return next(err);
+            }
+            bcrypt.hash(user.password ,salt, null,function (err,hash) {
+                if(err){
+                    return next(err);
+                }
+                user.password = hash;
+                next()
+            });
+        });
+    }else{
+        return next();
+    }
+
+});
+
+UserSchema.methods.comparePassword = function (passw ,cb) {
+    bcrypt.compare(passw,this.password,function (err,ismatch) {
+        if(err){
+            return cb(err);
+        }
+        cb(null,ismatch);
+    });
+};
+
+module.exports = mongoose.model('User',UserSchema);

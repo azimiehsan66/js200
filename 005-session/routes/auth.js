@@ -24,6 +24,9 @@ router.post('/register', function (req, res) {
 
 router.post('/login', function (req, res) {
 
+    if(!req.body.username || !req.body.password){
+        res.json({success:false, msg:'plase pass user and pass.'})
+    }
     User.findOne({
             username: req.body.username
         },
@@ -55,6 +58,13 @@ router.post('/login', function (req, res) {
 
 router.get('/logout', (req, res) => {
 
+    res.session.destroy(
+        (err)=>{
+            res.json({
+                msg:"successfully loged out."
+            });
+        }
+    );
 });
 
 module.exports = router;
