@@ -31,9 +31,9 @@ MongoClient.connect(url, (err, client) => {
 
 
 
-    s.save().then((docs)=>{
+ //   s.save().then((docs)=>{
      //   console.log(docs);
-    });
+  //  });
 
 
     Name = mongoose.model("Name", NameSchema);
@@ -58,7 +58,7 @@ MongoClient.connect(url, (err, client) => {
 */
 co(function* () {
   var  names = yield Name.find().exec();
-  var studen  ts = yield Student.find().exec();
+  var students = yield Student.find().exec();
 
 
     console.log(students);
