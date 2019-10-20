@@ -7,7 +7,7 @@ let Developer = require("../models/Developer");
 router.use(require('../services/guard'));
 
 router.get('/', function (req, res, next) {
-    Developer.find().paginate(req.body.page, req.query.per).exec().then(
+    Developer.find().paginate(req.query.page, req.query.per).exec().then(
         (developers) => {
             res.json(developers);
         }
