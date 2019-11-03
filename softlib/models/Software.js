@@ -1,4 +1,5 @@
 let mongoose = require('mongoose');
+
 let SoftwareSchema = new mongoose.Schema({
         //software_id: {type: Number},
         name: {type: String},
@@ -10,7 +11,7 @@ let SoftwareSchema = new mongoose.Schema({
         publisher: {type: String},
         picture: {data: Buffer, contentType: String},
         version: {type: String}
-       // category_id: {type: Number}
+        // category_id: {type: Number}
 
 
     }, {collection: 'softwares'}
