@@ -1,7 +1,19 @@
 let mongoose = require('mongoose');
 
-let SoftwareSchema = new mongoose.Schema({
-        //software_id: {type: Number},
+var Schema = mongoose.Schema;
+
+
+var categorySchema = Schema({
+    _id:Schema.Types.objectId,
+    category_name:String,
+    picture : { data: Buffer, contentType: String }
+    softwares: [{
+
+    }]
+
+},{collection:'categories'});
+
+let SoftwareSchema = Schema({
         name: {type: String},
         description: {type: String},
         last_update: {type: Date},
@@ -11,7 +23,7 @@ let SoftwareSchema = new mongoose.Schema({
         publisher: {type: String},
         picture: {data: Buffer, contentType: String},
         version: {type: String}
-        // category_id: {type: Number}
+
 
 
     }, {collection: 'softwares'}
