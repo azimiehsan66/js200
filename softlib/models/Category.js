@@ -1,12 +1,21 @@
 let mongoose = require('mongoose');
-let CategorySchema = new mongoose.Schema({
 
-        //category_id: {type: Number},
-        name: {type: String},
-        picture: {data: Buffer, contentType: String}
+var Schema = mongoose.Schema;
 
 
-    }, {collection: 'categories'}
-);
+var categorySchema = Schema({
+    _id: Schema.Types.objectId,
+    category_name: String,
+    picture: {data: Buffer, contentType: String}
+    softwares: [{
+        type: Schema.Types.ObjectId,
+        ref: 'Software'
+    }]
 
-module.exports = mongoose.model('Category', CategorySchema);
+}, {collection: 'categories'});
+
+
+var Category = mongoose.model('Category', categorySchema);
+
+
+//module.exports = mongoose.model('Category', CategorySchema);

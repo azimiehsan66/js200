@@ -3,18 +3,19 @@ let mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 
-var categorySchema = Schema({
-    _id:Schema.Types.objectId,
-    category_name:String,
-    picture : { data: Buffer, contentType: String }
+/*var categorySchema = Schema({
+    _id: Schema.Types.objectId,
+    category_name: String,
+    picture: {data: Buffer, contentType: String}
     softwares: [{
-
+        type: Schema.Types.ObjectId,
+        ref: 'Software'
     }]
 
-},{collection:'categories'});
+}, {collection: 'categories'});*/
 
-let SoftwareSchema = Schema({
-        name: {type: String},
+let softwareSchema = Schema({
+        name: {type:  String},
         description: {type: String},
         last_update: {type: Date},
         downloads: {type: Number},
@@ -25,8 +26,12 @@ let SoftwareSchema = Schema({
         version: {type: String}
 
 
-
     }, {collection: 'softwares'}
 );
 
-module.exports = mongoose.model('Software', SoftwareSchema);
+
+var Software = mongoose.model('Software', softwareSchema);
+//var Category = mongoose.model('Category', categorySchema);
+
+
+//module.exports = mongoose.model('Software', softwareSchema);

@@ -4,6 +4,9 @@ mongoose.connect(url);
 
 var Schema = mongoose.Schema;
 
+
+
+//person schema
 var personSchema = Schema({
         _id: Schema.Types.ObjectId,
         name: String,
@@ -17,14 +20,25 @@ var personSchema = Schema({
 );
 
 
+
+
+//story schema
 var storySchema = Schema({
     author: {type: Schema.Types.ObjectId, ref: 'Person'},
     title: String,
     fans: [{type: Schema.Types.ObjectId, ref: 'Person'}]
 });
 
+
+
+
+
+//story and person models
 var Story  = mongoose.model('Story',storySchema);
 var Person = mongoose.model('Person',personSchema);
+
+
+
 
 var autor = new Person({
    _id:new mongoose.Types.ObjectId(),
