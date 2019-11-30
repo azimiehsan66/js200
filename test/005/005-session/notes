@@ -1,0 +1,26 @@
+reference
+
+{
+    _id:
+    name:
+    family:
+    skills: [_id1, _id2, _id3]
+}
+
+
+embedded
+
+{
+    _id:
+    name:
+    family:
+    skills: [
+        {
+            _id:
+            name:
+            ...
+        },
+        {
+        },
+    ]
+}

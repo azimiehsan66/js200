@@ -1,0 +1,45 @@
+API
+
+Non-Comment-Counter : 0
+/*
+module.exports = (app) => {
+    app.use('/',            require('./home'));
+    app.use('/auth',        require('./auth'));
+    app.use('/developers',  require('./developers'));
+    app.use('/profile',     require('./profile'));
+};
+*/
+
+Search  $dayOfMonth
+mongo
+
+{
+    8: {
+        price: totalPrice
+    },
+    7 : {
+        price: totalPrice
+    }
+}
+
+orders
+[
+    {
+        order_id: 154321,
+        price: 100
+        createdAt: ISODate()
+        updatedAt: ISODate()
+    },
+    {
+        order_id: 154321,
+        price: 100
+        createdAt: ISODate()
+        updatedAt: ISODate()
+    },
+    {
+        order_id: 154321,
+        price: 100
+        createdAt: ISODate()
+        updatedAt: ISODate()
+    }
+]

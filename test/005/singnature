@@ -1,0 +1,55 @@
+RES:
+	status-code
+		401, 404, 200, 201, 500
+	header
+		x-jwt-token : TOKEN
+		error : true || false
+	body
+	{
+		error: true || false,
+		data: {
+			content: {},
+			pages: {
+				current :1
+				total : 10
+			}
+		},
+		msg: ""
+	}
+
+
+REQ:
+	header
+		x-jwt-token : TOKEN
+
+/api/v1
+		/buy/:bookId
+			POST /
+
+		/profile
+			GET /
+			PUT /
+				
+		/books
+			GET  	/ + ?page=1
+			POST 	/
+			PUT  	/:id
+			GET  	/:id
+			DELETE  /:id
+
+		/home
+			GET / + ?page=1
+			books
+
+		/auth
+			POST /register
+					email
+					password
+					name
+					address
+			POST /login
+					email
+					password
+			GET /check
+			GET /logout
+

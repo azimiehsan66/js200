@@ -1,0 +1,10 @@
+
+client
+	key
+	browser, app/api, ......
+
+
+
+server
+	key : data
+	file, database, memory

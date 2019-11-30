@@ -1,0 +1,29 @@
+models
+	createdAt
+	updatedAt
+
+User
+	email
+	password -> encrypt
+	name
+	address
+	avatar
+
+Tag
+	title
+
+Book
+	title
+	description
+	tags
+	inventory
+	price
+	author
+	users
+
+Customer
+	
+	user
+	book
+	quantity
+
