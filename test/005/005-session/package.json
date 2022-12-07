@@ -11,7 +11,7 @@
     "cookie-parser": "~1.4.3",
     "crawler": "^1.1.2",
     "debug": "~2.6.9",
-    "express": "~4.15.5",
+    "express": "~4.17.3",
     "jwt-redis-session": "^1.0.5",
     "mongoose": "^5.0.9",
     "morgan": "~1.9.0",
